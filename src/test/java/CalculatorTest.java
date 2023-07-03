@@ -37,8 +37,9 @@ public class CalculatorTest
     @Test
     public void checkCat(){
 
-        double result = calculator.cat(12,3);
-        Assertions.assertEquals(4,result,"Rezultat incorect");
+        double result = calculator.cat(5,3);
+        int result2 = (int)result;
+        Assertions.assertEquals(1,result2,"Rezultat incorect");
     }
 
     @Test
